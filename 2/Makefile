@@ -1,0 +1,8 @@
+COMPILER = g++
+FILESYSTEM_FILES = struct-test.cpp
+OUTPUT_NAME = struct-test
+build: $(FILESYSTEM_FILES)
+	$(COMPILER) $(FILESYSTEM_FILES) -o $(OUTPUT_NAME)
+
+clean:
+	rm $(OUTPUT_NAME)

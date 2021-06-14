@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/ubuntu/dev/cpp/meson-test/build",
+    "command": "cc -Imeson_test.p -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -MD -MQ meson_test.p/meson_test.c.o -MF meson_test.p/meson_test.c.o.d -o meson_test.p/meson_test.c.o -c ../meson_test.c",
+    "file": "../meson_test.c",
+    "output": "meson_test.p/meson_test.c.o"
+  }
+]
