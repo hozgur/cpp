@@ -1,0 +1,8 @@
+COMPILER = g++
+FILESYSTEM_FILES = main.cpp
+OUTPUT_NAME = json-test
+build: $(FILESYSTEM_FILES)
+	$(COMPILER) $(FILESYSTEM_FILES) -o $(OUTPUT_NAME)
+
+clean:
+	rm $(OUTPUT_NAME)
